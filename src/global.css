@@ -1,0 +1,105 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(#1db9543d, #1db954);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 90px;
+}
+
+
+.album-list{
+    width: 400px;
+    background-color: #0000008a;
+    height: 100px;
+    padding-left: 110px;
+    position: relative;
+    border: 1px solid #ffffff26;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.album-list img{
+    width: 98px;
+    position: absolute;
+    left: 0;
+}
+
+.album-list .album-name{
+    font-size: 25px;
+}
+
+.album-list .album-count-songs{
+    position: ABSOLUTE;
+    right: 10px;
+    bottom: 8px;
+    background-color: white;
+    color: black;
+    width: 25px;
+    text-align: center;
+    border-radius: 25px;
+    height: 24px;
+    line-height: 25px;
+    font-weight: 800;
+    color: gray;
+}
+
+.btn{
+    height: 38px;
+    font-size: 14px;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-outline-success:hover{
+    border-color: #28a745;
+}
+
+
+.album-notes{
+    font-size: 14px;
+}
+
+.top-bar{
+    line-height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    left: 0;
+    text-align: center;
+    font-size: 18px;
+    height: 50px;
+    background-color: #1db954;
+    z-index: 1;
+}
+
+.top-bar .nav-link{
+    float: right;
+    color: white;
+    background-color: #326043;
+    height: 50px;
+    line-height: 42px;
+    padding: 0 20px;
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+}
+
+.top-bar .nav-link:hover{
+    background-color: #28a745;
+}

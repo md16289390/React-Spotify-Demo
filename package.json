@@ -1,0 +1,45 @@
+{
+    "name": "spotifydemo",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "antd": "^4.3.4",
+        "axios": "^0.19.2",
+        "dotenv": "^4.0.0",
+        "querystring": "^0.2.0",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "react-loaders": "^3.0.1",
+        "react-redux": "^7.1.0",
+        "react-router-dom": "^5.2.0",
+        "react-router-redux": "^4.0.8",
+        "react-scripts": "3.2.0",
+        "react-toasts": "^3.0.6",
+        "redux": "^4.0.4",
+        "redux-devtools-extension": "^2.13.8",
+        "redux-persist": "^6.0.0",
+        "redux-persist-transform-encrypt": "^2.0.1",
+        "redux-thunk": "^2.3.0",
+        "underscore": "^1.10.2"
+    },
+    "scripts": {
+        "client": "react-scripts start",
+        "build": "react-scripts build && firebase deploy --only hosting:app",
+        "start": "yarn client"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
